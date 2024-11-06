@@ -1,0 +1,160 @@
+#1.Sum of Natural Numbers
+
+
+import java.util.*;
+
+public class Loops {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int n =sc.nextInt();
+
+        int sum = 0;
+        for(int i = 0;i<=n;i++){
+            sum +=i;
+        }
+    
+        System.out.println(sum)
+
+    }
+}
+
+# 2.Fibonacci Sequence
+
+
+import java.util.*;
+
+public class Loops2 {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int num1 = 0,num2 = 1;
+
+        System.out.print(num1+","+num2);
+
+        for(int i = 3;i<=n;i++){
+            int next = num1+num2;
+            System.out.print(","+next);
+            num1= num2;
+            num2 = next;
+        }
+    }   
+}
+
+
+# 3.Factorial of a Number
+
+import java.util.*;
+
+public class Loops3 {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        long factorial =1;
+
+        for(int i=1;i<=n;i++){
+            factorial = i;
+        }
+        System.out.println(n+":"+factorial);
+
+    }
+
+ # 4.Multiplication Table
+
+import java.util.*;
+
+public class Loops4 {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int n = sc.nextInt();
+
+       //
+        System.out.println(n+":");
+
+    
+        for(int i=1;i<=10;i++){
+            System.out.println(n+"x"+i+"="+(n*i));
+        }
+
+    }
+    
+}
+
+# 5.check for prime Number
+
+import java.util.*;
+
+public class Loops5 {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int n = sc.nextInt();
+        boolean isPrime = true;
+
+        for(int i=2;i<=n;i++){
+           if(n%i==0){
+            isPrime = false;
+            break;
+           }
+        }
+        if(n<=1){
+            isPrime = false;
+        }
+        System.out.println(n+"is"+(isPrime? "prime":"not prime Number"));
+}}
+
+# 6.LCM Calculation
+
+import java.util.*;
+
+public class Loops6 {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter first number:");
+        int num1 = sc.nextInt();
+        System.out.println("Enter the Second number:");
+        int num2 = sc.nextInt();
+        int lcm =Math.max(num1,num2);
+    
+
+        for(int i = Math.max(num1,num2);;i++){
+
+        if(i%num1 ==0 && i%num2==0){
+
+        }
+        lcm =i;
+        break;
+        System.out.println("LCM of"+num1+"and"+num2+":"+lcm);
+    }
+    
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
+
+
+
