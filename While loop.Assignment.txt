@@ -1,0 +1,154 @@
+//1.Sum of first n Natural Numbers
+
+/*import java.util.*;
+
+public class Whileloop {
+    public static void main(String args[]){
+     Scanner sc = new Scanner(System.in);
+     System.out.println("Enter a Number:");
+     int n= sc.nextInt();
+     int sum=0;
+
+     int i=1;
+     while(i<=n){
+        sum+=i;
+        i++;
+     }
+        System.out.println(+sum);
+
+    }
+     
+}*/
+
+//2.Fibonacci Sequence
+
+/*public class Whileloop{
+    public static void main(String args[]){
+       int num = 7;
+
+        int a=0;
+        int b=1;
+
+        int i= 1;
+        while(i<=num){
+            System.out.print(a+",");
+            int sum=a+b;
+            a =b;
+            b=sum;
+            i++;
+        }
+    }
+}*/
+
+//3.Factorial a Number
+
+/*import java.util.*;
+
+public class Whileloop{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int n= sc.nextInt();
+        int factorial = 1;
+
+        int i=1;
+        while(i<=n){
+            factorial =factorial*i;
+            i++;
+        }
+        System.out.println("Factorial of"+n+":"+factorial);
+
+    }
+}*/
+
+//4.Multiplication Table
+
+/*import java.util.*;
+
+public class Whileloop{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a Number:");
+        int n = sc.nextInt();
+
+        int i=1;
+        while(i<=10){
+            System.out.println(n+ "X" +i+ "=" +(n*i));
+            i++;
+        }
+
+    }
+}*/
+
+//5.check for Prime Number
+
+/*import java.util.*;
+
+public class Whileloop{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a Number:");
+        int n = sc.nextInt();
+        int  count = 0;
+
+        int i = 1;
+        while(i<=n){
+            if(n%i==0){
+                count = count+1;
+                i++;
+            }
+            if(count ==2){
+                System.out.println("isPrime");
+            }else{
+                System.out.println("is not Prime");
+            }
+        }
+
+
+    }
+}*/
+
+//6.Program
+
+/*public class Whileloop{
+    public static void main(String args[]){
+        int num =5;
+
+        int i=1;
+        while(i<=5){
+            System.out.println(i+" "+(i*i));
+            i++;
+        }
+    }
+}*/
+
+//7.program
+
+/*public class Whileloop{
+    public static void main(String args[]){
+        int n= 5;
+
+        int i=n;
+        while(i>=1){
+            System.out.println(i+" "+(n-i+1));
+            i--;
+        }
+    }
+}*/
+
+//8.program
+
+/*public class Whileloop{
+    public static void main(String args[]){
+        int num1 = 10;
+        int num2 = 5;
+        int decrement=2;
+
+        int i =0;
+        while(i<5){
+            System.out.println(num1 + " "+num2);
+            num1 -=2;
+            num2 -=1;
+            i++;
+        }
+    }
+}*/
